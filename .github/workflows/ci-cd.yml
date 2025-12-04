@@ -19,7 +19,7 @@ jobs:
     steps:
     - name: Set project path
       run: |
-        PROJECT_PATH="/home/Hakim/personal_collection_management_system"
+        PROJECT_PATH="/home/vinnzy/personal_collection_management_system"
         if [ ! -d "$PROJECT_PATH" ]; then
           echo "❌ Error: Folder tidak ditemukan: $PROJECT_PATH"
           exit 1
