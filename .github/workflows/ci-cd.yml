@@ -14,7 +14,7 @@ on:
 
 jobs:
   laptop-hakim:
-    runs-on: [laptop-hakim]
+    runs-on: [laptop-vinnzy]
     
     steps:
     - name: Set project path
