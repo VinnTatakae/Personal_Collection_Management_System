@@ -83,9 +83,9 @@ jobs:
       if: always()  # Selalu jalankan step ini (sukses atau gagal)
       run: |
         if [ ${{ job.status }} == 'success' ]; then
-          echo "✅ Deployment berhasil di laptop-andi! Aplikasi sudah update ke versi terbaru"
+          echo "✅ Deployment berhasil di laptop-vinnzy! Aplikasi sudah update ke versi terbaru"
         else
-          echo "❌ Deployment gagal di laptop-andi! Cek log error di atas"
+          echo "❌ Deployment gagal di laptop-vinnzy! Cek log error di atas"
         fi
 
   # ======================== JOB UNTUK HAKIM ==========================
@@ -160,8 +160,8 @@ jobs:
       if: always()  # Selalu jalankan step ini (sukses atau gagal)
       run: |
         if [ ${{ job.status }} == 'success' ]; then
-          echo "✅ Deployment berhasil di laptop-andi! Aplikasi sudah update ke versi terbaru"
+          echo "✅ Deployment berhasil di laptop-hakim! Aplikasi sudah update ke versi terbaru"
         else
-          echo "❌ Deployment gagal di laptop-andi! Cek log error di atas"
+          echo "❌ Deployment gagal di laptop-hakim! Cek log error di atas"
         fi
 
